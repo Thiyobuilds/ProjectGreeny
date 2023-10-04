@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav .active {
+    color: green !important;
+}
+
+nav {
+    background-color: white;
+    height: 60px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+}
+
+.sidebar {
+    width: 80% !important;
+}
+
+.gren {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: xx-large;
+    color: black;
+}
+
+.gren2 {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: x-large;
+    color: black;
+}
+
+#btn {
+    font-size: x-large;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home {
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+.home .button a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.home .button a:hover {
+    background-color: green;
+    font-weight: 600;
+}
+
+.home-1 p {
+    font-weight: 500;
+    color: black;
+}
+
+.home-1 span {
+    color: green;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.home #h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.home #slogan {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home #box {
+    box-shadow: 0 0 10px gray;
+}
+
+.icon i {
+    color: green;
+    font-weight: 600;
+}
+
+.boxes h3 {
+    text-transform: uppercase;
+}
+
+.products {
+    background-color: green;
+}
+
+.products .title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.products .card {
+    box-shadow: 0 0 10px white;
+}
+
+.products .card-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: green;
+}
+
+.pricing .card {
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+}
+
+.pricing .card-body {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: green;
+}
+
+.pricing .title {
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: green;
+}
+
+.pricing .card-footer span {
+    color: green;
+    font-weight: 600;
+}
+
+.pricing .card-footer button {
+    font-size: 20px;
+    color: black;
+    padding: 2px 8px;
+    border: solid 2px gray;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+}
+
+.pricing .card-footer button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.testimonials .author p {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.testimonials .rating {
+    letter-spacing: 3px;
+    color: green;
+}
+
+.testimonials {
+    background-color: green;
+}
+
+.testimonials p {
+    color: black;
+    font-weight: 500;
+}
+
+.testimonials h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: green;
+}
+
+.carousel-indicators button {
+    background-color: black !important;
+}
+
+.testimonials .carousel {
+    box-shadow: 0 0 10px white;
+}
+
+.testimonials .title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact .title span {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: green;
+}
+
+.contact .title p {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact input {
+    padding: 5px 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact input::placeholder {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contact button {
+    outline: none;
+    padding: 5px 15px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+}
+
+.contact .thi span {
+    font-weight: 600;
+    color: black;
+}
+
+.contact .social {
+    color: green;
+    letter-spacing: 2px;
+}
+
+.contact .social i:hover {
+    cursor: pointer;
+}
+
+.contact .foot {
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.contact .thi{
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px gray;
+}
+
+.contact .foot span {
+    text-transform: uppercase;
+    color: green;
+}
